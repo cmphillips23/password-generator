@@ -2,6 +2,7 @@
 var password = ""
 
 function generatePassword() {
+  password = ""
   var passwordArray = [""]
   if (passwordLength = prompt("How many characters would you like your new password to have?  Enter a number from 8 to 128.", "8 - 128")) {
     if (passwordLength >= 8 && passwordLength <= 128) {
